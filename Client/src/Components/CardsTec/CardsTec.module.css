@@ -1,0 +1,54 @@
+.DivCards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+}
+
+.containerLight{
+    padding-top: 30px;
+    background-color: #F2F2F2;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.containerDark{
+    padding-top: 30px;
+    background-color: #010D26;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.titleContainer{
+    text-align: start;
+}
+
+.titleLigth{
+    font-size: 30px;
+    color: #F20505;
+    font-weight: 600;
+}
+
+.titleDark{
+    font-size: 30px;
+    color: #f07c51;
+    font-weight: 600;
+}
+
+.subTitleLight{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.subTitleDark{
+    color: #8b8888;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 910px) {
+    .DivCards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+}
+}

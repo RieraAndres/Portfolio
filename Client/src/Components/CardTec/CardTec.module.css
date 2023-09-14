@@ -1,0 +1,40 @@
+.img{
+    width: 80%;
+}
+
+.tecLight{
+    font-weight: 700;
+}
+
+.tecDark{
+    font-weight: 700;
+    color: #c5c5c5;
+}
+
+.CardContainerLight{
+    padding: 10px 10px 10px 10px ;
+    width: 70%;
+    background-color:#F0F2F2;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+.CardContainerLight:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.CardContainerDark:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.CardContainerDark{
+    padding: 10px 10px 10px 10px ;
+    width: 70%;
+    background-color:#010D26;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 500px) {
+    
+}
+
+

@@ -1,0 +1,25 @@
+.footerContainerDark{
+    background-color: #010D26;
+    padding-bottom: 20px;
+}
+
+.footerContainerLight{
+    background-color: #F2F2F2;
+    padding-bottom: 20px;
+
+}
+.socials{
+    width: 5%;
+}
+
+.developLight{
+    font-size: 20px;
+    font-weight: 700;
+    color: #F20505;
+}
+
+.developDark{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f07c51;
+}

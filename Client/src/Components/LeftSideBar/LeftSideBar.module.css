@@ -1,0 +1,23 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 40%;
+}
+
+.Container img {
+    width: 70px;
+}
+
+.socials:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+    .Container{
+        display: none;
+    }
+}

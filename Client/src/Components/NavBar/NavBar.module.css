@@ -1,0 +1,224 @@
+.ContainerLight{
+  display: flex;
+  background-color: #F2F2F2;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+.ContainerDark{
+  display: flex;
+  background-color: #010D26;
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5);
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+
+.logo{
+    width: 7%;
+    border-radius: 100%;
+}
+
+.LinksContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.LinkLight{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.LinkDark{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 2%;
+  color: #c5c5c5;
+}
+
+.LinkLight:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+.LinkDark:hover{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+
+
+/* The switch - the box around the slider */
+.switchContainer {
+    margin-top: 2%;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switchContainer input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .switchContainer .slider {
+    --background: linear-gradient(to right, #222225ef, #5d5b61);
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--background);
+    transition: background-color 0.5s;
+    border-radius: 30px;
+  }
+  
+  .switchContainer .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 15px -4px 0px 15px #f8ea27;
+    background: var(--background);
+    transition: transform 0.5s, box-shadow 0.5s;
+  }
+  
+  .switchContainer input:checked + .slider {
+    background-color: #000;
+  }
+  
+  .switchContainer input:checked + .slider:before {
+    transform: translateX(100%);
+    box-shadow: inset 8px -4px 0px 0px #f8f8f4;
+  }
+
+@media screen and (max-width: 720px) {
+  .LinkLight{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.LinkDark{
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 2%;
+  color: #c5c5c5;
+}
+
+.switchContainer {
+  margin-top: 2%;
+  position: relative;
+  display: inline-block;
+  width: 2.8em;
+  height: 1.70em;
+}
+.switchContainer .slider:before {
+  position: absolute;
+  content: "";
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 15px -4px 0px 15px #f8ea27;
+  background: var(--background);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+}
+  
+@media screen and (max-width: 460px) {
+  .LinkLight{
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.LinkDark{
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 2%;
+  color: #c5c5c5;
+}
+
+.switchContainer {
+  margin-top: 2%;
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 1.2em;
+}
+.switchContainer .slider:before {
+  position: absolute;
+  content: "";
+  height: 0.8em;
+  width: 0.8em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 15px -4px 0px 15px #f8ea27;
+  background: var(--background);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+.switchContainer input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 5px -3px 0px 0px #f8f8f4;
+}
+
+}
+
+@media screen and (max-width: 310px) {
+  .LinkLight{
+    font-size: 8px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.LinkDark{
+  font-size: 8px;
+  font-weight: 600;
+  margin-top: 2%;
+  color: #c5c5c5;
+}
+
+.switchContainer {
+  margin-top: 2%;
+  position: relative;
+  display: inline-block;
+  width: 1.5em;
+  height: 0.8em;
+}
+.switchContainer .slider:before {
+  position: absolute;
+  content: "";
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 15px -4px 0px 15px #f8ea27;
+  background: var(--background);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+.switchContainer input:checked + .slider:before {
+  transform: translateX(130%);
+  box-shadow: inset 3px -1px 0px 0px #f8f8f4;
+}
+
+}
+  

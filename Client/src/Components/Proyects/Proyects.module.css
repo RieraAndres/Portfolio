@@ -1,0 +1,104 @@
+.ContainerLight{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+    background-color: #F2F2F2;
+}
+
+.ContainerDark{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+    background-color: #010D26;
+}
+
+.titleContainer{
+    text-align: left;
+}
+
+.titleLight{
+    font-size: 30px;
+    color: #F20505;
+    font-weight: 600;
+}
+
+.titleDark{
+    font-size: 30px;
+    color: #f07c51;
+    font-weight: 600;
+}
+
+.subTitleLight{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.subTitleDark{
+    color: #8b8888;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+
+.proyecto{
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+.proyectTitle{
+    color:#235FD9 ;
+}
+
+.proyectDescriptionLight{
+    font-size: 15px;
+}
+
+.proyectDescriptionDark{
+    font-size: 15px;
+    color:#8b8888;
+}
+
+.proyectImg{
+    width: 60%;
+    border-radius: 20px;
+}
+
+.imgAndLogo{
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    padding-right: 10px;
+}
+
+.logo:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.techDark{
+    color: #8b8888;
+}
+
+@media screen and (max-width: 850px) {
+    .techLight{
+        display: none;
+    }
+    .techDark{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo{
+        width: 50px;
+        height: 50px;
+        padding-right: 10px;
+    }
+}
+
+
+
