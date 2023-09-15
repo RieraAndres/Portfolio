@@ -175,3 +175,9 @@
     transform: scale(0.95);
   }
 
+@media screen and (max-width: 500px) {
+  .buttonContainer{
+    padding-left: 30%;
+    padding-top: 10px;
+}
+}
