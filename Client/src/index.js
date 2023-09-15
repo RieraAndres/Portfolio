@@ -9,9 +9,9 @@ import { Provider } from "react-redux";
 
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3001";
+// axios.defaults.baseURL = "http://localhost:3001";
 
-// axios.defaults.baseURL = "portfolio-andres-riera.up.railway.app";
+axios.defaults.baseURL = "portfolio-andres-riera.up.railway.app";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

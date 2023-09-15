@@ -45,10 +45,12 @@ export function changeToEnglish() {
 export function sendEmail(name, lastName, email, message) {
   return async function (dispatch) {
     try {
-      const response = await axios.post(
-        "http://localhost:3001/portfolio/email",
-        { name, lastName, email, message }
-      );
+      const response = await axios.post("/portfolio/email", {
+        name,
+        lastName,
+        email,
+        message,
+      });
       return dispatch({
         type: SEND_EMAIL,
         payload: response.data,
