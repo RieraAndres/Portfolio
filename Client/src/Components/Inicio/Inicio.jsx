@@ -26,7 +26,7 @@ function Inicio() {
             <p className={Dark ? styles.textDark : styles.textLigth}>{Language ?
              "I'm a FullStack Developer and my main objetive is to improve the IT world through creative and efficient solutions. I'm teamworker, i like to share new ideas and knowledge in order to improve and help on my current proyect"
               :
-             " Soy un colaborador entusiasta y siempre estoy ansiosopor aprender y enfrentar nuevos desafíos. Me gusta trabajar en equipo,compartiendo ideas y conocimientos para lograr buenos resultados.Mi objetivo es seguir creciendo profesionalmente, aprendiendo nuevas tecnologías y mejores prácticas para desarrollar soluciones que impacten positivamente en la vida de las personas."}</p>
+             " Soy un colaborador entusiasta y siempre estoy ansioso por aprender y enfrentar nuevos desafíos. Me gusta trabajar en equipo,compartiendo ideas y conocimientos para lograr buenos resultados. Mi objetivo es seguir creciendo profesionalmente, aprendiendo nuevas tecnologías y mejores prácticas para desarrollar soluciones que impacten positivamente en la vida de las personas."}</p>
              <a className={styles.fancy} href="https://drive.google.com/file/d/1C8FE-_k4yALmmQnFKWEtNxdRahr6QUiN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
               <span className={styles.topKey}></span>
               <span className={styles.text}>Curriculum</span>
