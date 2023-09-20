@@ -20,7 +20,7 @@ function Footer() {
       <a href="https://www.linkedin.com/in/riera-andres9/" target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoLinkedinDark : LogoLinkedinLight} alt="" className={styles.socials}></img></a>
         <a href="https://github.com/RieraAndres" target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoGitHubDark : LogoGitHubLigth} alt="" className={styles.socials}></img></a>
         <a href="mailto:andresriera9999@gmail.com" target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoMailDark : LogoMailLigth} alt="" className={styles.socials}></img></a>
-        <a href={Language ? "https://drive.google.com/file/d/1XgnOZ2eoGQnP3mwc0PgRjl28eYgLbCSg/view?usp=drive_link" : "https://drive.google.com/file/d/17dUE5EfBvl-ftg6qAbxP8r9cVbvLfAuQ/view?usp=drive_link"} target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoCVDark : LogoCVLight} alt="" className={styles.socials}></img></a>
+        <a href={Language ? "https://drive.google.com/file/d/15k2PLpJ0Y3O10rS34zTWfgXrSnavCoox/view?usp=sharing" : "https://drive.google.com/file/d/1Z3JQchdwrAA6zbp6WVN1IruF-ND18jC6/view?usp=sharing"} target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoCVDark : LogoCVLight} alt="" className={styles.socials}></img></a>      
       </div>
       <div>
         <p className={Dark ? styles.developDark : styles.developLight}>{Language ? "Develop by Andrés Riera" : "Desarrollado por Andrés Riera"}</p>
