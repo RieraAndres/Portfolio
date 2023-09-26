@@ -1,7 +1,7 @@
 import styles from "./Proyects.module.css"
 import {  useSelector } from "react-redux";
-import HenryFoods from "../../Assets/Proyectos/HenryFoods.PNG"
-import PatitasSinHogar from "../../Assets/Proyectos/PatitasSinHogar.PNG"
+import HenryFoods from "../../Assets/Proyectos/HenryFoods.webp"
+import PatitasSinHogar from "../../Assets/Proyectos/PatitasSinHogar.webp"
 import LogoGitHubLight from "../../Assets/Logo/LogoGitHubLight.png"
 import LogoGitHubDark from "../../Assets/Logo/LogoGitHubDark.png"
 import LogoNetLight from "../../Assets/Logo/LogoNetLight.png"
