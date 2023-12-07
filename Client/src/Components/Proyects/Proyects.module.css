@@ -46,7 +46,9 @@
 }
 
 .proyectTitle{
-    color:#235FD9 ;
+    color:#235FD9;
+    font-size: 35px;
+    font-weight: 500;
 }
 
 .proyectDescriptionLight{
