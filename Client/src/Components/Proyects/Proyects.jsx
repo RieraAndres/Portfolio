@@ -59,8 +59,8 @@ function Proyects() {
      initial={{ opacity: 0 }}
      animate={controls}>
       <div className={styles.titleContainer}>
-        <p className={Dark ? styles.titleDark : styles.titleLight}>{Language ? "Proyects" : "Proyectos"}</p>
-        <p className={Dark ? styles.subTitleDark : styles.subTitleLight}>{Language ? "|| This are some proyects where I worked" : "|| Estos son algunos de los proyectos en los que e trabajado"}</p>
+        <p className={Dark ? styles.titleDark : styles.titleLight}>{Language ? "Projects" : "Proyectos"}</p>
+        <p className={Dark ? styles.subTitleDark : styles.subTitleLight}>{Language ? "|| This are some projects where I worked" : "|| Estos son algunos de los proyectos en los que e trabajado"}</p>
       </div>
       <div className={styles.proyecto}>
         <p className={styles.proyectTitle}>Portal Distribuidora</p>
