@@ -3,6 +3,7 @@ import {  useSelector } from "react-redux";
 import HenryFoods from "../../Assets/Proyectos/HenryFoods.webp"
 import PatitasSinHogar from "../../Assets/Proyectos/PatitasSinHogar.webp"
 import PortalDistribuidora from "../../Assets/Proyectos/PortalDistribuidora.webp"
+import Opina from "../../Assets/Proyectos/Opina.webp"
 import LogoGitHubLight from "../../Assets/Logo/LogoGitHubLight.png"
 import LogoGitHubDark from "../../Assets/Logo/LogoGitHubDark.png"
 import LogoNetLight from "../../Assets/Logo/LogoNetLight.png"
@@ -32,7 +33,7 @@ function Proyects() {
     };
 
     const handleScroll = () => {
-      if (containerRef.current && isInViewport(containerRef.current, 1000)) {
+      if (containerRef.current && isInViewport(containerRef.current, 1800)) {
         setIsVisible(true);
       }
     };
@@ -61,6 +62,17 @@ function Proyects() {
       <div className={styles.titleContainer}>
         <p className={Dark ? styles.titleDark : styles.titleLight}>{Language ? "Projects" : "Proyectos"}</p>
         <p className={Dark ? styles.subTitleDark : styles.subTitleLight}>{Language ? "|| This are some projects where I worked" : "|| Estos son algunos de los proyectos en los que e trabajado"}</p>
+      </div>
+      <div className={styles.proyecto}>
+        <p className={styles.proyectTitle}>opina.net.ar</p>
+        <p className={Dark ? styles.proyectDescriptionDark : styles.proyectDescriptionLight}>{Language ? "Opina.net.ar is a website developed for a client who main objetive is to collect information through surveys. A database was developed to save the surveys and answers with the posibility to download the data in CVS format in order to manage the information through Microsoft Excel. Surveys can be launch by the client and can be managed in the admin dashboard available on the website" : "Opina.net.ar es una pagina web desarrollada a medida para un cliente cuyo principal objetivo es el de recolectar datos a traves de encuestas, estas encuentas son personalizables y pueden ser lanzadas por el mismo cliente. Se creo una base de datos que aloja las mismas con sus respuestas dando la posibilidad al cliente de descargar los datos en formato CVS para luego ser manipulados en Microsoft Excel. La pagina cuenta con un dashboard de administrador donde las encuestas pueden ser eliminadas y lanzadas o deshabilitadas"}
+        </p>
+        <div className={styles.imgAndLogo}>
+            <img src={Opina} alt="" className={styles.proyectImg}></img>
+            <a href="https://github.com/RieraAndres/opina.com" target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoGitHubDark : LogoGitHubLight} alt="" className={styles.logo}></img></a>
+            <a href="https://www.opina.net.ar/" target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoNetDark : LogoNetLight} alt="" className={styles.logo}></img></a>
+            <p className={Dark ? styles.techDark : styles.techLight}>React | Redux | Node | NodeMailer | Express | Cloudinary</p>
+        </div>
       </div>
       <div className={styles.proyecto}>
         <p className={styles.proyectTitle}>Portal Distribuidora</p>
