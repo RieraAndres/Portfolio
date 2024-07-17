@@ -98,21 +98,6 @@ function Proyects() {
             <a href="https://henry-pf-git-main-rieraandres.vercel.app/" target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoNetDark : LogoNetLight} alt="" className={styles.logo}></img></a>
             <p className={Dark ? styles.techDark : styles.techLight}>React | Redux | Express | PostgreSQL | Sequilize | Node | Bootstrap | Scrum | Cloudinary | MercadoPagoApi | NodeMailer | GoogleAuth</p>
         </div>
-      <div className={styles.proyecto} style={{paddingTop:"5%"}}>
-        <p className={styles.proyectTitle}>{Language ? "Recipes App" : "Aplicación de recetas"}</p>
-        <p className={Dark ? styles.proyectDescriptionDark : styles.proyectDescriptionLight}>
-          {Language ? "An App where you can find a lot of recipes coming from an external API, each recipe has a detail page where you can find nutritional information and how to cook them step by step. Users can filter them by diet type, search by name, order alphabetically and by health score from 1 to 100. In addition users can create their own recipe and upload it to the website" : " Una aplicación que consume datos de una API, la cual permite la visualización de recetas,con su respectiva información nutricional detallada y paso a paso para su creación. Entre algunas funcionalidades, el usuario puede filtrar las recetas por el tipo de dieta que quiera realizar, puede buscar por nombre y ordenarlas por orden alfabético y también por su nivel saludable. Tambien se le da la posibilidad al usuario de cargar su propia receta"}
-        </p>
-        <p className={Dark ? styles.proyectDescriptionDark : styles.proyectDescriptionLight}>
-            {Language ? "In this opportunity I developed the entire app. This proyect was part of SoyHenry Bootcamp" : "En esta oportunidad mi trabajo fue el completo desarrolo de la aplicación. Este proyecto fue parte de SoyHenry Bootcamp"}
-        </p>
-        <div className={styles.imgAndLogo}>
-            <img src={HenryFoods} alt="" className={styles.proyectImg}></img>
-            <a href="https://github.com/RieraAndres/ProyectoInd_Henry.git" target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoGitHubDark : LogoGitHubLight} alt="" className={styles.logo}></img></a>
-            <a href="https://proyecto-ind-henry-git-master-rieraandres.vercel.app/welcome" target="_blank" rel="noopener noreferrer"><img src={Dark ? LogoNetDark : LogoNetLight} alt="" className={styles.logo}></img></a>
-            <p className={Dark ? styles.techDark : styles.techLight}>React | Redux | Express | PostgreSQL | Sequilize | Node </p>
-        </div>
-      </div>
       </div>
     </motion.div>
   );
