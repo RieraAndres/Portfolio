@@ -6,6 +6,9 @@ import LogoSequilize from "../../Assets/Logo/LogoSequilize.png"
 import LogoPostgresql from "../../Assets/Logo/LogoPostgresql.png"
 import LogoJS from "../../Assets/Logo/LogoJS.png"
 import LogoExpress from "../../Assets/Logo/LogoExpress.png"
+import LogoElementor from "../../Assets/Logo/LogoElementor.png"
+import LogoWordPress from "../../Assets/Logo/LogoWordPress.png"
+import LogoWoocommerce from "../../Assets/Logo/LogoWoocommerce.png"
 import CardTec from "../CardTec/CardTec"
 import styles from "./CardsTec.module.css"
 import React, { useEffect, useRef, useState } from "react";
@@ -60,7 +63,10 @@ function CardsTec() {
     {Logo: LogoSequilize , Tec: "Sequilize"},
     {Logo: LogoPostgresql , Tec: "PostgreSQL"},
     {Logo: LogoJS , Tec: "JavaScript"},
-    {Logo: LogoExpress , Tec: "Express"}
+    {Logo: LogoExpress , Tec: "Express"},
+    {Logo: LogoWordPress , Tec: "WordPress"},
+    {Logo: LogoElementor, Tec: "Elementor"},
+    {Logo: LogoWoocommerce , Tec: "Woocommerce"},
 ]
 
   return (
