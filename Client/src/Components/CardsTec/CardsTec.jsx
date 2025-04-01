@@ -35,7 +35,7 @@ function CardsTec() {
   
 
   const handleScroll = () => {
-  if (containerRef.current && isInViewport(containerRef.current, 300)) {
+  if (containerRef.current && isInViewport(containerRef.current, 500)) {
     setIsVisible(true);
   }
 };

@@ -36,7 +36,7 @@ function Proyects() {
     };
 
     const handleScroll = () => {
-      if (containerRef.current && isInViewport(containerRef.current, 1800)) {
+      if (containerRef.current && isInViewport(containerRef.current, 2000)) {
         setIsVisible(true);
       }
     };
